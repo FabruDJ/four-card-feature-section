@@ -53,7 +53,6 @@ h1, h2, p {
     justify-content: center;
     flex-wrap: wrap;
     gap: 25px;
-    margin-bottom: 30px;
 }
 .card {
     max-width: min(100%, 300px);
@@ -88,9 +87,15 @@ h1, h2, p {
 .card_blue {
     border-top-color: var(--color-blue);
 }
+.footer {
+    margin-top: 30px;
+}
 
 /* =====- Media Queries -===== */
 @media screen and (min-width: 1010px) {
+    .body {
+        padding: 30px 0 0 0;
+    }
     .card-container {
         width: 950px;
         margin: auto;
